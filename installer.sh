@@ -2,9 +2,9 @@
 
 set -e
 
-TELLMINAL="https://github.com/gamerYazilimci45/tellminal/main/tellminal"
-SERVER_PY="https://github.com/gamerYazilimci45/tellminal/main/server.py"
-CLIENT_PY="https://github.com/gamerYazilimci45/tellminal/main/client.py"
+TELLMINAL="https://github.com/gamerYazilimci45/tellminal/raw/main/tellminal.py"
+SERVER_PY="https://github.com/gamerYazilimci45/tellminal/raw/main/server.py"
+CLIENT_PY="https://github.com/gamerYazilimci45/tellminal/raw/main/client.py"
 
 DEST_DIR="/usr/bin"
 DEST_DIR2="/usr/local/bin"
