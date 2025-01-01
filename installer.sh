@@ -8,7 +8,7 @@ CLIENT_PY="https://github.com/gamerYazilimci45/tellminal/raw/main/client.py"
 
 DEST_DIR="/usr/bin"
 DEST_DIR2="/usr/local/bin"
-
+TELLMINAL_NAME="tellminal"
 
 echo "Files are downloading and moving..."
 for PY_FILE in "$SERVER_PY" "$CLIENT_PY"; do
@@ -20,7 +20,7 @@ done
 
 BASENAME=$(basename "$TELLMINAL")
 echo "Downloading: $BASENAME"
-sudo wget -q -O "$DEST_DIR/$BASENAME" "$TELLMINAL"
-sudo chmod +x "$DEST_DIR/$BASENAME"
+sudo wget -q -O "$DEST_DIR/$TELLMINAL_NAME" "$TELLMINAL"
+sudo chmod +x "$DEST_DIR/$TELLMINAL_NAMEs"
 
 echo "[+] tellminal is successfully installed!"
