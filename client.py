@@ -19,11 +19,3 @@ def start_client(host, port):
 
     client_socket.close()
 
-if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print("Error 1")
-        sys.exit(1)
-
-    host = sys.argv[1]
-    port = int(sys.argv[2])
-    start_client(host, port)
